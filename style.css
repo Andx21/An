@@ -1,0 +1,31 @@
+body{
+    font-size: 20px;
+    text-align: center;
+}
+.font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.format{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 300px;
+}
+label{
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: darkviolet;
+}

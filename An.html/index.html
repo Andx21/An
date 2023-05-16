@@ -5,31 +5,40 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-   <style>
-      .intro {
-         display: flex;
-         background: violet ;
-         flex-wrap: nowrap;
-         gap: 10px 20px;
-      }
-      .item {
-         width: 100px;
-         height: 100px;
-         background-color: blue;
-         padding: 30px;
-      }
-   </style>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="intro">
-      <div class="item">item1</div>
-      <div class="item">item2</div>
-      <div class="item">item3</div>
-      <div class="item">item4</div>
-      <div class="item">item5</div>
-      <div class="item">item6</div>
-      <div class="item">item7</div>
-      <div class="item">item8</div>
+   <h2>Đăng ký tài khoản</h2>
+   <div class="font">
+      <form>
+         <div class="format">
+            <label for="fname">Họ tên:</label>
+            <input type="text" id="fname" name="fname" required>
+         </div>
+         <div class="format">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+         </div>
+         <div class="format">
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+         </div>
+         <div class="format">
+            <label for="birthday">Sinh nhật:</label>
+            <input type="date" id="birthday" name="birthday" required>
+         </div>
+         <div class="format">
+            <label for="address">Địa chỉ:</label>
+            <input type="text" id="address" name="address" required>
+         </div>
+         <div class="format">
+            <label for="note">Ghi chú:</label>
+            <textarea id="note" name="note" rows="5" cols="30"></textarea>
+         </div>
+         <div class="format">
+            <button type="submit">Đăng ký</button>
+         </div>
+      </form>
    </div>
 </body>
 </html>
